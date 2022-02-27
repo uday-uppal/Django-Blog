@@ -1,1 +1,1 @@
-# Django-Blog
+Full Stack Blogging website on the theme 'LEGION of Birds'. Made using HTML, CSS, JavaScript, the Front-end is fully responsive. The Backend is powered by Django and Python. We have used "Froala Editor" to provide advanced insitu formatting capabilities while uploading new BLOGs, in the Admin interface of Django.
