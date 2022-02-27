@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block start %}
+<head><link rel="stylesheet" href="{% static "blog/css/responsive_index.css"%}">
+</head>
+<div class="bb m-auto max-width-3">
+    <div class=" m-auto max-width-3 "><h1 class="heading">{{blog_obj.title}} </h1></div>
+    <div class="det m-auto max-width-3 "><p>Author: {{blog_obj.author}}</p><p>&nbsp &nbsp &nbsp</p><p> Read Time: {{blog_obj.read_time}} min</p></div>
+    <div class="main_img m-auto max-width-3"><img src="blog/{{blog_obj.image}}" alt=""></div>
+    <br><hr class="m-auto max-width-3"><br>
+    <div class="cont  m-auto max-width-3"><p>{{blog_obj.content|safe}} </p></div></div>
+
+<br><br><br><br>
+
+{% endblock start %}

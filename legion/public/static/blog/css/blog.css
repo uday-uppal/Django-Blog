@@ -1,0 +1,49 @@
+.fr-fic{
+    max-width:100%;
+}
+.max-width-3{
+    max-width: 60vw;
+}
+.heading{
+    padding: 20px;
+    font-size: 30px;
+}
+.bb{
+    display:flex;
+    /* justify-content: center; */
+flex-direction:column;
+padding: 20px 0px 40px 0px;
+}
+.cont{
+
+    font-size: 20px;
+}
+
+
+.main_img img{
+    /* height: 40vw; */
+    height: auto;
+    width:auto
+    
+}
+.main_img{
+padding: 0.774vw 9.679vw;
+}
+.det{
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    /* padding: 0px 250px; */
+    justify-content: space-around;
+}
+.det p{
+    margin: 1vw;
+
+}
+/* .det{
+    display: flex;
+    justify-content: center;
+} */
+.fr-fic{
+    max-width:100%;
+}

@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block start %}
+<head>
+</head>
+<div class="homeimg max-width-1 m-auto">
+    <div class="writeup">
+        <h2>Learn Everyday & Grow</h2>
+        <p>LEGION of Birds is where millions flock to learn and grow. Everyday, you get access to treasuretrove of knowledge, engineered to help you grow. From Getting updated with the latest news, to latest trends in Tech, we have got you covered. <b>Stop Binging, Start Growing</b></p>
+        <h1>One Blog Everyday</h1>
+    </div> <img class="i1" src="{% static 'blog/img/homeimg.jpg' %}" alt="Main image">
+</div>
+<div class="f max-width-1 m-auto">
+    <h3 class="fea">Featured Articles</h3>
+</div>
+
+{% comment %} <div class="max-width-1 m-auto"> {% endcomment %}
+    {% comment %} <div="cc12"> {% endcomment %}
+        <head></head>
+    <div class="cardsss max-width-1 m-auto">
+        {% for blog in blogs %}
+      <a class="anchor_card" href="{%url "blog_detail" blog.slug%}">
+        <div class="card cc123" style="width: 18rem;">
+          <img class="card-img-top anchor_img" src="media/{{ blog.image }}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{blog.title}}</h5>
+            
+            {% comment %} <a href="#" class="btn btn-primary">Go somewhere</a> {% endcomment %}
+          </div>
+        </div>
+      </a>
+        {% endfor %}
+        <br><br>
+        <br><br>
+
+    </div>
+    {% comment %}
+</div> {% endcomment %}
+
+{% endblock start %}

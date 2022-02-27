@@ -1,0 +1,31 @@
+.contactf{
+    display:flex;
+    flex-direction: column;
+}
+/* .cc{
+    /* max-width: 600 px; */
+
+/* } */ 
+input{
+    box-sizing: border-box
+}
+.f3{
+    height: 600 px;
+}
+.contactf input{
+    padding: 0.8vw;
+    margin:1vw
+}
+.btn123{
+    padding: 8px 15px;
+    border: 2px solid rgb(13, 110, 236);
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    max-width: 300px;
+justify-content: center;
+
+}
+/* .mess{
+    height: 00px;
+} */
